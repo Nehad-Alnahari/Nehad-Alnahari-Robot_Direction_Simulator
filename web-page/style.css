@@ -1,0 +1,22 @@
+
+h1 {
+    line-height: 62px;
+    font-family: 'Staatliches', cursive;
+}
+
+body {
+    background-image: url("robot.png"); 
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+.paragraph {
+    font-size: 40px;
+    line-height: 62px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+
