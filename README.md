@@ -15,6 +15,3 @@ The path taken will be saved in the database with the given path name in the inp
 <br />
 
 **The database and web page pictures are uploaded in the 'img' folder**
-
-**Click on the link bellow to open the Web page** <br />
-[https://nehad-alnahari.github.io/Nehad-Alnahari-Robot_Direction_Simulator/]
