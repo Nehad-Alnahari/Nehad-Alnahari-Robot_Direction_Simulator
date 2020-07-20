@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <h1 style="margin:14px;font-size: 70px;">Robot Controlling Web-Based Interface</h1>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <!---->
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <body>
+           
+            <p class="paragraph" style="margin:14px;">Click on a button</p>
+            <div style="padding-left:30px;">   
+                
+                <form class="form-inline">
+                    <button type="button" class="btn btn-outline-warning" onclick="myFunction('f')" style="margin:10px;">Forward</button> 
+                    <input type="text" class="form-control" id="f">  
+                </form>
+                <form class="form-inline">
+                    <button type="button" class="btn btn-outline-info" onclick="myFunction('d')" style="margin:10px;">Down</button> 
+                    <input type="text" class="form-control" id="d">  
+                </form>
+                <form class="form-inline">
+                    <button type="button" class="btn btn-outline-danger" onclick="myFunction('l')" style="margin:10px;">Left</button>
+                    <input type="text" class="form-control" id="l">
+                </form>
+                <form class="form-inline">
+                    <button type="button" class="btn btn-outline-success" onclick="myFunction('r')" style="margin:10px;">Right</button>
+                    <input type="text" class="form-control" id="r">  
+                </form> <br>
+
+                <div >
+                    <canvas id="myCanvas" width="400" height="400" style="border:1px solid #7f7f7f;"></canvas>
+                </div>
+
+                <form class="form-inline">
+                    <button type="button" class="btn btn-success" style="margin:10px; width:145px;" onclick="save()">Save</button> 
+                    <input type="text" class="form-control" id="savepath" placeholder="Enter the path name"> 
+                </form> 
+                <button type="button" class="btn btn-danger" style="margin:10px; width:375px;" onclick="reset()">Delete</button> <br> <br>
+            </div>
+        </body>
+    </html>
